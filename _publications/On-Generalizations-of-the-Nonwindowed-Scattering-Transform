@@ -2,11 +2,10 @@
 title: "On Generalizations of the Nonwindowed Scattering Transform"
 collection: publications
 permalink: /publication/On-Generalizations-of-the-Nonwindowed-Scattering-Transform
-excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the q norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in Mallat's seminal paper "Group Invariant Scattering."'
+excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the q norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in Mallat's seminal paper, Group Invariant Scattering.'
 date: 2024-01-01
 venue: 'Applied and Computational Harmonic Analysis'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl:'https://arxiv.org/abs/2209.05038'
 citation: 'Chua, Albert, Hirn, Matthew, Little, Anna. (2024). &quot;On Generalizations of the Nonwindowed Scattering Transform.&quot; <i>Applied and Computational Harmonic Analysis</i>. Volume 68, January 2024, 101597.'
 ---
 
