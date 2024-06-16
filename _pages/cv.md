@@ -31,7 +31,7 @@ Work experience
 * 2018 - 2023: Graduate Research/Teaching Assistant
   * Michigan State University
   * Duties included: Taught undergraduate courses at MSU. Please see teaching portion below.
-  * 
+    
 * 2018 - 2023: Grader/Releaser
   * Art of Problem Solving
   * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students to training for high school olympiads. 
