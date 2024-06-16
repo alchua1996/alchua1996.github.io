@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Mathematics, GitHub University, 2023
-* B.S. in Physics/Applied Mathematics and B.A. in Economics, Missouri University of Science and Technology, 2018
+* Ph.D in Mathematics, Michigan State University, 2023
+* Bachelors in Physics/Applied Mathematics/Economics, Missouri S&T, 2018
 
 Work experience
 ======
 * 2023-Present: Risk Data Analytics Associate
-  * Github University
+  * Global Atlantic Financial Group, Risk Data Analytics
   * Duties includes: Training Large scale surrender models to update yearly assumptions. 
 
 * Sunmmer 2023: Risk Data Analytics Intern
-  * Global Alantic Financal Group
+  * Global Atlantic Financial Group, Risk Data Analytics
   * Duties includes: Training surrender models for variable annuity blocks. 
 
 * Summer 2022: Data Science Intern
-  * Amazon, B2B Payments
+  * Amazon, B2B Payments 
   * Duties included: Created scalable B2B fraud model in the amazon fraud detection pipeline. Saved $20mm in fraud losses.
 
 * 2018 - 2023: Graduate Research/Teaching Assistant
