@@ -11,35 +11,43 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematics, GitHub University, 2023
+* B.S. in Physics/Applied Mathematics and B.A. in Economics, Missouri University of Science and Technology, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* 2023-Present: Risk Data Analytics Associate
   * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * Duties includes: Training Large scale surrender models to update yearly assumptions. 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sunmmer 2023: Risk Data Analytics Intern
+  * Global Alantic Financal Group
+  * Duties includes: Training surrender models for variable annuity blocks. 
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2022: Data Science Intern
+  * Amazon, B2B Payments
+  * Duties included: Created scalable B2B fraud model in the amazon fraud detection pipeline. Saved $20mm in fraud losses.
+
+* 2018 - 2023: Graduate Research/Teaching Assistant
+  * Michigan State University
+  * Duties included: Taught undergraduate courses at MSU. Please see teaching portion below.
+  * 
+* 2018 - 2023: Grader/Releaser
+  * Art of Problem Solving
+  * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students to training for high school olympiads. 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C++
+  * OpenMP
+  * MPI
+* Python
+  * Numpy
+  * Pandas
+  * Sk-learn
+  * Pytorch
+* MATLAB
+* LaTeX
 
 Publications
 ======
@@ -58,7 +66,4 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
