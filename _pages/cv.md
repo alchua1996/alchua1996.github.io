@@ -34,18 +34,14 @@ Work experience
     
 * 2018 - 2023: Grader/Releaser
   * Art of Problem Solving
-  * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students to training for high school olympiads. 
+  * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students training for high school olympiads. 
   
 Skills
 ======
 * C++
-  * OpenMP
-  * MPI
+  * OpenMP, MPI
 * Python
-  * Numpy
-  * Pandas
-  * Sk-learn
-  * Pytorch
+  * NumPy, Pandas, Sk-learn, PyTorch
 * MATLAB
 * LaTeX
 
