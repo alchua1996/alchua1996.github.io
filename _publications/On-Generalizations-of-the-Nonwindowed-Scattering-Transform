@@ -5,9 +5,9 @@ permalink: /publication/Generalizations-of-the-Nonwindowed-Scattering-Transform
 excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the q norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in the seminal paper, Group Invariant Scattering.'
 venue: 'Applied and Computational Harmonic Analysis'
 date: 2024-02-06
-paperurl: 'https://arxiv.org/abs/2402.10771'
-citation: 'Chua, Albert, Yang, Yang (2024). &quot;Generalizing Geometric Nonwindowed Scattering Transforms on Compact Riemannian Manifolds.&quot; <i>Accepted to Sampling Theory Signal Processing and Data Analysis (Pending Minor Revision)</i>.'
----
+paperurl: 'https://arxiv.org/abs/2209.05038'
+citation: 'Chua, Albert, Hirn, Matthew, Little, Anna. (2024). &quot;On Generalizations of the Nonwindowed Scattering Transform.&quot; <i>Applied and Computational Harmonic Analysis</i>. Volume 68, January 2024, 101597.'
+
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
 
