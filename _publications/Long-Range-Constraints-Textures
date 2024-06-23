@@ -1,7 +1,7 @@
 ---
 title: "Long Range Constraints for Neural Texture Synthesis Using Sliced Wasserstein Loss"
 collection: publications
-permalink: /publication/Long_Range_Constraints_Textures
+permalink: /publication/Long-Range-Constraints-Textures
 excerpt: 'We modify a single-texture synthesis algorithm using Sliced Wasserstein Loss to generate textures with long range features incoporated..
 date: 2022-11-11
 paperurl: 'https://arxiv.org/abs/2211.11137'
