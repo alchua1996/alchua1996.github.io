@@ -3,7 +3,7 @@ title: "Nonwindowed Scattering Transforms and Invariant
 Representations"
 collection: talks
 type: "Talk"
-permalink: https://alchua1996.github.io/alchua1996.github.io/file/SIAMSlides.pdf
+permalink: file/SIAMSlides.pdf
 venue: "Michigan State University"
 date: 2023-10-14
 location: "SIAM Great Lakes Conference, 2023"
