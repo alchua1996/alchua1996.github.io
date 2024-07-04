@@ -18,11 +18,11 @@ Industry Work Experience
 ======
 * 2023-Present: Risk Data Analytics Associate
   * Global Atlantic Financial Group, Risk Data Analytics
-  * Duties includes: Training Large scale surrender models to update yearly assumptions. 
+  * Duties include: Training large scale surrender models to update yearly assumptions, maintaining and automating monthly reporting pipelines.
 
 * Sunmmer 2023: Risk Data Analytics Intern
   * Global Atlantic Financial Group, Risk Data Analytics
-  * Duties includes: Training surrender models for variable annuity blocks. 
+  * Duties included: Training surrender models for variable annuity blocks and automating monthly reporting pipelines.
 
 * Summer 2022: Data Science Intern
   * Amazon, B2B Payments 
