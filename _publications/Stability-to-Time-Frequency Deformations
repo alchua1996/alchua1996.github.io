@@ -2,8 +2,8 @@
 title: "Towards Stability to Time-Frequency Deformations for Deep Convolutional Neural Networks"
 collection: publications
 permalink: files/Time_Frequency_Deformations_for_Scattering.pdf?raw=true
-venue: 'NA'
-date: 'NA'
+venue: 'NA, Submitted to ICASSP 2025'
+date: 2024-09-09
 excerpt: 'In this paper, we examine deformations from the
 lens of an operator similar to Fourier Integral Operators (FIOs).
 First, we provide a generalization of the deformation operator
