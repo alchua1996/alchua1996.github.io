@@ -2,11 +2,11 @@
 title: "Generalizing Geometric Nonwindowed Scattering Transforms on Compact Riemannian Manifolds"
 collection: publications
 permalink: files/Generalizing_the_Nonwindowed_Geometric_Scattering_Transform.pdf?raw=true
-paperurl: 'https://arxiv.org/abs/2402.10771'
+paperurl: 'https://link.springer.com/article/10.1007/s43670-024-00093-x'
 excerpt: 'In this paper, we provide theoretical results regarding scattering moments with 1 < q < 2, which are q norms of a cascade of wavelet transforms and nonlinearities.'
-venue: 'Sampling Theory, Signal Processing, and Data Analysis (Pending Minor Revision)'
-date: 2024-02-06
-citation: 'Chua, Albert, Yang, Yang. &quot;Generalizing Geometric Nonwindowed Scattering Transforms on Compact Riemannian Manifolds.&quot; <i>Accepted to Sampling Theory Signal Processing and Data Analysis (Pending Minor Revision)</i>.'
+venue: 'Sampling Theory, Signal Processing, and Data Analysis'
+date: 2024-11-11
+citation: 'Chua, A., Yang, Y. Generalizing geometric nonwindowed scattering transforms on compact Riemannian manifolds. Sampl. Theory Signal Process. Data Anal. 22, 19 (2024).'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
