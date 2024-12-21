@@ -14,6 +14,28 @@ Education
 * Ph.D in Mathematics, Michigan State University, 2023
 * Bachelors in Physics/Applied Mathematics/Economics, Missouri S&T, 2018
 
+Academic Work Experience
+======
+* 2018 - 2023: Graduate Research/Teaching Assistant
+  * Michigan State University
+  * Duties included: Taught undergraduate courses at MSU. Please see teaching portion below.
+    
+* 2018 - 2023: Grader/Releaser
+  * Art of Problem Solving
+  * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students training for high school olympiads.
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
 Industry Work Experience
 ======
 * 2023-Present: Risk Data Analytics Associate
@@ -27,17 +49,7 @@ Industry Work Experience
 * Summer 2022: Data Science Intern
   * Amazon, B2B Payments 
   * Duties included: Created scalable B2B fraud model in the amazon fraud detection pipeline. Saved $20mm in fraud losses.
-
-Academic Work Experience
-======
-* 2018 - 2023: Graduate Research/Teaching Assistant
-  * Michigan State University
-  * Duties included: Taught undergraduate courses at MSU. Please see teaching portion below.
-    
-* 2018 - 2023: Grader/Releaser
-  * Art of Problem Solving
-  * Duties included: Graded problems for AoPS courses, which are made for talented K-12 students training for high school olympiads. 
-  
+ 
 Skills
 ======
 * C++
@@ -46,18 +58,6 @@ Skills
   * NumPy, Pandas, Sk-learn, PyTorch
 * MATLAB
 * LaTeX
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
 Teaching
 ======
