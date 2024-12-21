@@ -6,10 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-About 
-======
-My name is Albert, and this is my research website. I recieved my Ph.D. in Mathematics from Michigan State University, where I had the fortune to be advised by [Yang Yang](https://sites.google.com/view/dr-yang-yang/home) and [Matthew Hirn](https://matthewhirn.com). 
+My name is Albert, and this is my research website. I recieved my Ph.D. in Mathematics from Michigan State University, where I had the fortune to be advised by [Yang Yang](https://sites.google.com/view/dr-yang-yang/home) and [Matthew Hirn](https://matthewhirn.com). My industry resume is [here](https://alchua1996.github.io/files/Albert_Chua_Resume.pdf?raw=True).
 
 Research
 ======
