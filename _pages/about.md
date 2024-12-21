@@ -7,4 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a data scientist, and this is my personal website. I recieved my Ph.D. in Mathematics from Michigan State University, where I had the fortune to be advised by [Yang Yang](https://sites.google.com/view/dr-yang-yang/home) and [Matthew Hirn](https://matthewhirn.com). My research focuses on mathematical guarantees for nonwindowed scattering transforms, which are wavelet-based feature extractors that resemble convolutional neural networks. I also dabble with topics in machine learning and pattern recognition that I find interesting. 
+About 
+======
+My name is Albert, and this is my research website. I recieved my Ph.D. in Mathematics from Michigan State University, where I had the fortune to be advised by [Yang Yang](https://sites.google.com/view/dr-yang-yang/home) and [Matthew Hirn](https://matthewhirn.com). 
+
+Research
+======
+Broadly speaking, I'm interested in the mathematics of machine learning/deep learning, with a slant towards interpreting feature extractors via techniques from Functional Analysis and Harmonic Analysis. The topics I've been working on recently include:
+* Interpretable feature extractors (e.g. Wavelet Scattering Transforms)
+* Wavelets
+* Fourier Analysis
+* Inverse Problems and Sampling
+* Phase Retrieval
+
+As a hobby, I also dabble with topics in Machine Learning and Pattern Recognition related to:
+* Style Transfer
+* Texture Synthesis
+* Adversarial Attacks on Classifiers
+
