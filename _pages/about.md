@@ -15,10 +15,9 @@ Broadly speaking, I'm interested in the mathematics of machine learning/deep lea
 * Wavelets
 * Fourier Analysis
 * Inverse Problems and Sampling
-* Phase Retrieval
 
 As a hobby, I also dabble with topics in Machine Learning and Pattern Recognition related to:
 * Style Transfer
 * Texture Synthesis
-* Adversarial Attacks on Classifiers
+
 
