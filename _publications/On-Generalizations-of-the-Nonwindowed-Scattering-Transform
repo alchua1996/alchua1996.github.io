@@ -1,8 +1,8 @@
 ---
 title: "On Generalizations of the Nonwindowed Scattering Transform"
 collection: publications
-permalink: files/nonwindowed_scattering_transform.pdf?raw=true
-paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1063520323000842'
+permalink: 'https://www.sciencedirect.com/science/article/abs/pii/S1063520323000842'
+paperurl: files/nonwindowed_scattering_transform.pdf?raw=true
 excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the q norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in the seminal paper, Group Invariant Scattering. Note that the downloadable version here has a slight patch. The stability bound should require the infinity norm to be less than 2^{-n} rather than 1/(2n) for the general case.'
 venue: 'Applied and Computational Harmonic Analysis'
 date: 2024-02-06
