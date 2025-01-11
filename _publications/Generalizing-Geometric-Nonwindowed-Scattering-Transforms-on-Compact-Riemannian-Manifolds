@@ -1,8 +1,8 @@
 ---
 title: "Generalizing Geometric Nonwindowed Scattering Transforms on Compact Riemannian Manifolds"
 collection: publications
-permalink: files/Generalizing_the_Nonwindowed_Geometric_Scattering_Transform.pdf?raw=true
-paperurl: 'https://link.springer.com/article/10.1007/s43670-024-00093-x'
+permalink: 'https://link.springer.com/article/10.1007/s43670-024-00093-x'
+paperurl: files/Generalizing_the_Nonwindowed_Geometric_Scattering_Transform.pdf?raw=true
 excerpt: 'In this paper, we provide theoretical results regarding scattering moments with 1 < q < 2, which are q norms of a cascade of wavelet transforms and nonlinearities.'
 venue: 'Sampling Theory, Signal Processing, and Data Analysis'
 date: 2024-11-11
