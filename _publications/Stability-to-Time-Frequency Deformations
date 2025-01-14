@@ -2,9 +2,12 @@
 title: "Towards Stability to Time-Frequency Deformations for Deep Convolutional Neural Networks"
 collection: publications
 permalink: files/Time_Frequency_Deformations_Deep_CNN.pdf?raw=true
-venue: 'Accepted to ICASSP'
+
 date: 2025-04-11
-excerpt: 'In this paper, we examine deformations from the
+
+excerpt: 'Accepted to ICASSP 2025 \\
+
+In this paper, we examine deformations from the
 lens of an operator similar to Fourier Integral Operators (FIOs).
 First, we provide a generalization of the deformation operator
 seen first in Mallat’s seminal paper Group Invariant Scattering,
