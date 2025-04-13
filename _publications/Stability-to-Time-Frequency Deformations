@@ -2,10 +2,10 @@
 title: "Towards Time-Frequency Deformation Stability Bounds for Deep Convolutional Neural Networks"
 collection: publications
 permalink: files/Time_Frequency_Deformations_Deep_CNN.pdf?raw=true
-paperurl: https://ieeexplore.ieee.org/document/10888263
+paperurl: 'https://ieeexplore.ieee.org/document/10888263'
 venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
 date: 2025-04-10
-citation: A. Chua, 'Towards Time-Frequency Deformation Stability Bounds for Deep Convolutional Neural Networks,' ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10888263.
+citation: A. Chua, 'Towards Time-Frequency Deformation Stability Bounds for Deep Convolutional Neural Networks,' ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025.
 excerpt: 'In this paper, we examine deformations from the
 lens of an operator similar to Fourier Integral Operators (FIOs).
 First, we provide a generalization of the deformation operator
