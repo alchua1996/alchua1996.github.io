@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Below is an academic version of my CV. For a copy of my industry resume, see [here](https://alchua1996.github.io/files/Albert_Chua_Resume.pdf?raw=True).
+Below is a more academic version of my CV. 
 {% include base_path %}
 
 Education
