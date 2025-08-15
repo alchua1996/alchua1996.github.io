@@ -3,9 +3,9 @@ title: "Long Range Constraints for Neural Texture Synthesis Using Sliced Wassers
 collection: publications
 permalink: files/Textures.pdf?raw=true 
 paperurl: 'https://arxiv.org/abs/2211.11137'
-venue: 'N/A -ArXiv preprint'
+venue: 'Accepted to MLSP, 2025'
 excerpt: 'We modify a single-texture synthesis algorithm using Sliced Wasserstein Loss to generate textures with long range features incoporated.'
-date: 2022-11-11
+date: 2025-09-01
 citation: 'Yin, Liping, Chua, Albert. &quot;Long Range Constraints for Neural Texture Synthesis Using Sliced Wasserstein Loss.&quot; <i>arXiv preprint, arxiv:2211.11137.</i>'
 ---
 
