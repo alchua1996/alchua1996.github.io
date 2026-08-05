@@ -39,8 +39,8 @@ Talks
   
 Industry Work Experience
 ======
-* 2023-Present: Risk Data Analytics Associate
-  * Global Atlantic Financial Group, Risk Data Analytics
+* 2023-Present: Insurance Data Science Associate
+  * Global Atlantic Financial Group, Insurance Data Science
   * Duties include: Training large scale surrender models to update yearly assumptions, maintaining and automating monthly reporting pipelines.
 
 * Sunmmer 2023: Risk Data Analytics Intern
