@@ -1,7 +1,7 @@
 ---
 title: "On Generalizations of the Nonwindowed Scattering Transform"
 collection: publications
-permalink: /publication/nonwindowed-scattering-transform
+permalink: files/On_Generalizations_of_the_Nonwindowed_Scattering_Transform.pdf?raw=true
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1063520323000842'
 excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the $q$ norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in the seminal paper, Group Invariant Scattering. <b>An errata for this paper is available <a href="https://github.com/alchua1996/alchua1996.github.io/blob/master/files/errata_generalizations_nonwindowed_scattering.pdf">here</a>.</b>'
 venue: 'Applied and Computational Harmonic Analysis'
