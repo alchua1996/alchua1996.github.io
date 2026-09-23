@@ -3,7 +3,140 @@ title: "On Generalizations of the Nonwindowed Scattering Transform"
 collection: publications
 permalink: files/nonwindowed_scattering_transform.pdf?raw=true
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1063520323000842'
-excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the $q$ norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in the seminal paper, Group Invariant Scattering. Note that the downloadable version here has a slight patch in the proofs for general stability bounds. However, all the theorem statements still hold true without any changes.'
+excerpt: 'In this paper, we provide results about the nonwindowed scattering transform, which we formulate as the $q$ norm of a cascade of wavelet transforms and nonlinearities. The main result of this paper is a well-defined weighted measure with diffeomorphism stability properties akin to what is seen in the seminal paper, Group Invariant Scattering. Errata: On Generalizations of the Nonwindowed Scattering Transform
+Everything below is keyed to arXiv:2209.05038 (https://arxiv.org/pdf/2209.05038), and numbering is that of the arXiv PDF.
+Item A1 is the only one that changes what is claimed; A2–A4 are its consequences. Sections B–D and F are set in smaller type: B lists proof corrections that leave statements intact, C lists typos, D records the new numbering, F records changes to the surrounding text.
+Items marked (already fixed) were corrected in a later version of the paper, and appear here only because they are still wrong in the arXiv PDF.
+---
+A. Statement changes
+A1. Theorem 6 is false for $m \ge 2$; it holds for $m = 1$
+Theorem 6 claims, for all $m$,
+$$|S^m_{\mathrm{cont},1}f|{\mathbf{L}^2(\mathbb{R}^m+)} \le C_m |f|_{\mathbf{H}^1(\mathbb{R}^n)}.$$
+For $m \ge 2$ the left-hand side is $+\infty$ for essentially every $f \ne 0$, so no constant works.
+Where the proof fails. The induction step replaces
+$$G\big(U_{\lambda_m}\cdots U_{\lambda_1}f\big) \quad\text{by}\quad G\big(\mathcal{W}{\lambda_m}U{\lambda_{m-1}}\cdots U_{\lambda_1}f\big)$$
+"since the $G$ function has a modulus already", and then applies the $\mathbf{H}^1 \to \mathbf{L}^1$ bound (32) to the second expression. The quantity actually being bounded is $|G(g)|1$ with $g = U{\lambda_m}\cdots U_{\lambda_1}f$. That $g$ is nonnegative and, unless it vanishes identically, has strictly positive integral, so it is never in $\mathbf{H}^1(\mathbb{R}^n)$: every element of $\mathbf{H}^1$ has zero average. Cancellation of the wavelet is available at the first layer only.
+Why the bound itself is false. Fix $(\lambda_1,\dots,\lambda_{m-1})$ with $g = U_{\lambda_{m-1}}\cdots U_{\lambda_1}f \ne 0$. Since $g \ge 0$ and $g \in \mathbf{L}^1$, $\hat g$ is continuous with $\hat g(0) = |g|1 > 0$. Choosing $\omega_0$ with $\hat\psi(\omega_0) \ne 0$, and using $|h|1 \ge |\hat h|\infty$ together with $\widehat{\psi\lambda}(\omega) = \lambda^{n/2}\hat\psi(\lambda\omega)$,
+$$|g*\psi_\lambda|_1 ;\ge; \lambda^{n/2},|\hat g(\omega_0/\lambda)|,|\hat\psi(\omega_0)| ;\ge; \tfrac12 \lambda^{n/2}|g|_1 |\hat\psi(\omega_0)|$$
+for all large $\lambda$, while $\int^\infty \lambda^{n},d\lambda/\lambda^{n+1} = \infty$. The same computation applies to the dyadic transform, where $|g*\psi_j|_1 \to |g|_1|\psi|_1$ as $j \to \infty$.
+The hypothesis "$g \ne 0$ on a set of positive measure" holds whenever $f * \psi_{\lambda_1} \not\equiv 0$ for $\lambda_1$ in a set of positive measure, hence for every $f \ne 0$ when $\hat\psi$ vanishes identically on no ray.
+Corrected statement. Theorem 6 holds for $m = 1$, and its proof needs only (24)–(25). In particular Lemmas 4 and 5 are not needed for it; they enter only through Corollary 11 and Corollary 14.
+A2. Corollary 7 also holds only for $m = 1$
+Analyticity of $\psi$ gives $\mathcal{W}\lambda h \in \mathbf{H}^1(\mathbb{R})$ for every $h \in \mathbf{L}^1(\mathbb{R})$, with $|\mathcal{W}\lambda h|{\mathbf{H}^1} = 2|\mathcal{W}\lambda h|1$, but the next layer receives $|\mathcal{W}\lambda h| \ge 0$. The divergence in A1 applies verbatim.
+A3. Replacement for $m \ge 2$: a damped scale measure
+For $\varepsilon > 0$ put $\theta_\varepsilon = \sqrt{2/\varepsilon}$ and
+$$\omega_\varepsilon(s,t) = \Big(\tfrac{\min(s,t)}{\max(s,t)}\Big)^{\varepsilon}, \qquad \Omega^m_\varepsilon(\lambda) = \prod_{k=2}^m \omega_\varepsilon(\lambda_{k-1},\lambda_k),$$
+$$|F|^2_{\mathbf{L}^2_\varepsilon(\mathbb{R}^m_+)} = \int_0^\infty!!\cdots!\int_0^\infty |F|^2,\Omega^m_\varepsilon,\frac{d\lambda_1}{\lambda_1^{n+1}}\cdots\frac{d\lambda_m}{\lambda_m^{n+1}},$$
+with $2^{-\varepsilon|j_k-j_{k-1}|}$ in the dyadic case. For $m = 1$ this is the original norm. Then for every $m \ge 1$, every $\varepsilon > 0$ and every $f \in \mathbf{H}^1(\mathbb{R}^n)$,
+$$|S^m_{\mathrm{cont},1}f|{\mathbf{L}^2\varepsilon(\mathbb{R}^m_+)} ;\le; (|\psi|1\theta\varepsilon)^{m-1}, C_1 |f|_{\mathbf{H}^1(\mathbb{R}^n)},$$
+where $C_1$ is the $m = 1$ constant. The proof is Young's inequality at each layer past the first, plus Theorem 6 at the first, using $\lambda_j^{n},d\lambda_j/\lambda_j^{n+1} = d\lambda_j/\lambda_j$ and $\int_0^\infty \omega_\varepsilon(s,t),dt/t = 2/\varepsilon$.
+Damping discards only the coarse outer scales $\lambda_k \gg \lambda_{k-1}$, where $|g*\psi_{\lambda_k}|_1 \approx \lambda_k^{n/2}|\psi|1|g|1$ merely reproduces the previous layer's coefficient. Restricting instead to $R^{-1} \le \lambda_k/\lambda{k-1} \le R$ gives the same bounds with $\theta\varepsilon^2$ replaced by $2\log R$, which is closer to what implementations do.
+A4. Statements inheriting A1
+Corollary 14 ($q = 1$ dilation stability, stated without proof): for $m \ge 2$ both sides must be measured in the damped norm; for $m = 1$ it is unchanged. A proof is now supplied. With $\psi^c := (1-c)^{-n/2}\psi_{(1-c)} = \psi + \Psi$, Lemma 9 reads $\mathcal{W}\lambda L\tau = L_\tau \mathcal{W}^c_\lambda$, hence $V_k L_\tau = L_\tau V^c_k$ and
+$$S^m_{\mathrm{cont},1}L_\tau f = (1-c)^{-n} S^{m,c}{\mathrm{cont},1} f.$$
+One then telescopes layer by layer, using that the modulus is nonexpansive on $\mathbf{L}^1$; each error term is $|(V^c{k-1}f)*\Psi_{\lambda_k}|_1$, and $|\Psi|_1 = O(|c|)$ by Lemma 10.
+Lemma 23 and Lemma 26, $q = 1$ bullets: the domain is $\mathbf{H}^1(\mathbb{R}^n)$, not $\mathbf{L}^1(\mathbb{R}^n)$, and for $m \ge 2$ the target is the damped norm.
+Theorem 24 and Theorem 27, $q = 1$ parts: damped norms for $m \ge 2$.
+---
+B. Proof corrections (statements unchanged)
+<small>
+B1. Proposition 15, bound on $P_1$
+The proof states that it suffices to bound
+$$\int_0^1 |K^*{\lambda,1}K{\lambda,1}f|_2^2,\frac{d\lambda}{\lambda}.$$
+This does not control $\big|\int_0^1 \tilde K^*{\lambda,1}\tilde K{\lambda,1},\frac{d\lambda}{\lambda}\big|$: the measure $d\lambda/\lambda$ has infinite mass on $(0,1)$, so square-integrability in $\lambda$ does not bound the integral of the operators. The multiplier family with symbol $m(\lambda) = 1/(1+|\log\lambda|)$ satisfies the displayed bound and fails the required one. The $|\hat\psi|^4$ appearing two displays later comes from this step.
+Correct argument. The operator is positive, so by Tonelli
+$$\Big|\int_0^1 \tilde K^*{\lambda,1}\tilde K{\lambda,1},\frac{d\lambda}{\lambda}\Big| = \sup_{|f|2=1}\int_0^1|\tilde K{\lambda,1}f|_2^2,\frac{d\lambda}{\lambda},$$
+and since $\tilde k_{\lambda,1}(x,u) = a(u)\lambda^n\psi(\lambda(x-u))$ gives $\tilde K_{\lambda,1}f = (\lambda^{n/2}\psi_{1/\lambda})*(af)$, Plancherel yields
+$$\int_0^1|\tilde K_{\lambda,1}f|2^2,\frac{d\lambda}{\lambda} = \frac{1}{(2\pi)^n}\int{\mathbb{R}^n}|\widehat{af}(\omega)|^2\Big(\int_1^\infty|\hat\psi(\lambda\omega)|^2,\frac{d\lambda}{\lambda}\Big),d\omega ;\le; A_\psi |af|_2^2.$$
+The conclusion $|\int_0^1 \tilde K^*{\lambda,1}\tilde K{\lambda,1},d\lambda/\lambda|^{1/2} \le C_n|D\tau|_\infty$ is unchanged.
+B2. Proposition 15, the bound on $|K_{\lambda,2}|$
+Quoted as $|K_{\lambda,2}| \le \min{\lambda^{-n}|D^2\tau|\infty, |D\tau|\infty}$; the correct exponent is $\lambda^{-1}$. The Taylor remainder is $|\tau(x)-\tau(u)-D\tau(u)(x-u)| \le \tfrac12|D^2\tau|\infty|x-u|^2$, and the Schur test at scale $1/\lambda$ gives $\tfrac{1}{2\lambda}|D^2\tau|\infty\int|z|^2|\nabla\psi(z)|,dz$. This is also where the extra decay of footnote 1 is used. The two exponents agree when $n = 1$.
+Consequently, in the bounds for $P_3$,
+$$\int_1^\infty \lambda^{-2n},\tfrac{d\lambda}{\lambda} ;\to; \int_1^\infty \lambda^{-2},\tfrac{d\lambda}{\lambda}, \qquad \int_1^\infty 2\lambda^{-n},\tfrac{d\lambda}{\lambda} ;\to; \int_1^\infty 2\lambda^{-1},\tfrac{d\lambda}{\lambda},$$
+and the constants $\tfrac1{2n}$, $\tfrac2n$ become $\tfrac1{\sqrt2}$, $\sqrt2$. The final bound $\le 2C_n(|D\tau|\infty+|D^2\tau|\infty)$ is unchanged.
+B3. Proposition 15, smaller items
+Footnote 1: the decay needed is $O((1+|x|)^{-n-2-\alpha})$ for some $\alpha > 0$, not $O((1+|x|)^{-n-2+\alpha})$.
+Statement, and the corresponding step in Theorem 12: the commutator maps $\mathbf{L}^2(\mathbb{R}^n) \to \mathbf{L}^2(\mathbb{R}_+\times\mathbb{R}^n)$; the arrow is written the other way round.
+$|a|_\infty$: the claim $|a|\infty \le n|D\tau|\infty$ is replaced by $|a|\infty \le (1+|D\tau|\infty)^n - 1 \le 2n|D\tau|\infty$, valid for $|D\tau|\infty \le \tfrac1{2n}$.
+Cotlar step: $|H\tau|\infty$ appears twice where $|D^2\tau|\infty$ is meant. (already fixed)
+The $|\hat\psi|^4$ integral: the constant should be $M_\psi^4$. Superseded by B1, where the exponent $2$ gives $M_\psi^2$ and $\int_0^1\lambda,d\lambda + \int_1^\infty\lambda^{-5},d\lambda$.
+Plancherel line: $dz$ should be $d\omega$, and a factor $(2\pi)^{-n}$ is missing. (the first already fixed)
+Kernel of $K^*{\lambda,1}K{\lambda,1}$: written as $\lambda^{n/2}\tilde\psi_{1/\lambda} * \lambda^{n/2}\tilde\psi_{1/\lambda}$; the second factor should be $\psi$. There is also an unmatched parenthesis in $a(y) = 1 - (\det(I-D\tau(y))$. Both disappear with B1.
+Not an error: the decomposition $\tilde k_{\lambda,1} + \tilde k_{\lambda,2}$ is correct as printed, the determinant multiplying both terms of $\tilde k_{\lambda,2}$.
+B4. Theorem 16
+The determinant bound $|\det(I - D\tau(\gamma^{-1}(y)))| \le 1 + n|D\tau|\infty$ is not justified; what holds is $(1+|D\tau|\infty)^n$, which for $|D\tau|\infty \le \tfrac1{2n}$ is at most $1+2n|D\tau|\infty$. Only constants change. (already fixed, with an explicit constant)
+B5. Section 5.2
+Lemma 17: the right-hand side should be $\cdots|f|2^2$; in the last line of the proof the bracket containing $|D\tau|\infty(\log\cdots) + |D^2\tau|_\infty$ should be squared.
+Lemma 19, proof: the first of the two $G$-function terms carries $d\lambda/\lambda^{2}$; it should be $d\lambda/\lambda^{n+1}$. Also, "By Theorem 1" should be "By Lemma 1".
+Theorem 21, proof: in the line where Minkowski's integral inequality is applied, the exponent inside the bracket should be $2$, not $q$; the next line already has $2$.
+B6. Section 3
+Theorem 8, proof: $U_{\lambda_1}\cdots U_{\lambda_1}f$ should be $U_{\lambda_m}\cdots U_{\lambda_1}f$ (four occurrences); "we used Theorem 1" should be "Lemma 1".
+Theorem 8, proof, first display: written as $\big[\int_0^\infty (|f*\psi_\lambda|q)^{q},d\lambda/\lambda^{n+1}\big]^{1/2}$; it should be $(|f*\psi\lambda|_q)^{2}$ with outer exponent $q/2$. In the $m+1$ display, the exponent $2/q$ on $|\cdot|_q$ should be $2$. (already fixed)
+Proposition 2, proof: the left side of the first display in the induction step is missing its square.
+Proposition 3: the statement should read $|S^m_{\mathrm{cont},2}f|^2_{\mathbf{L}^2(\mathbb{R}^m_+)} = C_\psi^m|f|2^2$, and similarly for the dyadic case; in the proof, $\mathbf{L}^2(\mathbb{R}+)$ should be $\mathbf{L}^2(\mathbb{R}^m_+)$.
+</small>
+---
+C. Typos
+<small>
+Introduction and Section 2
+Equation (3): should read $U[\lambda]f = \big|\int f(u)2^{-nj}\psi(2^{-j}r^{-1}(x-u)),du\big|$; the exponents are written positive and the $f$ is missing on the left. (already fixed)
+Contributions list: $|\tau|\infty < \tfrac1{2n}$ should be $|D\tau|\infty < \tfrac1{2n}$; "Lipchitz" should be "Lipschitz". (the latter already fixed)
+§2.1: $\sup_{x,y\in\mathbb{R}^d}$ should be $\mathbb{R}^n$.
+§2.2: $\int_{\mathbb{R}^n}\psi(x),du$ should be $,dx$.
+(25): "for all $h \ne 0$" should be "for all $y \ne 0$".
+§3.1, definition of the norm: $\frac{d\lambda_m}{\lambda_m^{m+1}}$ should be $\frac{d\lambda_m}{\lambda_m^{n+1}}$. (already fixed)
+Propositions 2 and 3, statements: the codomain $\mathbf{L}^2(\mathbb{R}^m)$ should be $\mathbf{L}^2(\mathbb{R}^m_+)$. (already fixed)
+Sections 3.2–3.3
+Lemmas 4 and 5: $\mathbf{H}^s(\mathbb{R}^d)\cap C(\mathbb{R}^d)$ should be $\mathbb{R}^n$.
+Theorem 6, statement: stray "?" after "Additionally,". (already fixed)
+Theorem 8, statement: $|S^m_{\mathrm{cont},q}f|{\mathbf{L}^2(\mathbb{R}+)}$ and $|S^m_{\mathrm{dyad},q}f|{\ell^2(\mathbb{Z})}$ should carry $\mathbb{R}^m+$ and $\mathbb{Z}^m$. (already fixed)
+§3.3, dyadic norm display: the second sum should be over $j_1$, and the argument should be $(j_1,\dots,j_m)$.
+Section 4
+Before Lemma 10: "the necessity of Lemma ." — `\label` was used in place of `\ref`.
+Lemma 10: the hypothesis should read $|c| < \tfrac1{2n}$; in the proof, $|\Psi_\lambda(x)|$ should be $|\Psi(x)|$ in two displays; the conclusions should carry $|c|$, not $c$.
+Corollary 11: $c$ should be $|c|$ in all four bounds.
+Theorem 12, statement: the dyadic bound is stated with $|\cdot|{\mathbf{L}^2(\mathbb{R}^m+)}$; it should be $|\cdot|_{\ell^2(\mathbb{Z}^m)}$.
+Theorem 12 and Corollary 13, proofs: stray commas in $\mathcal{W}V_{m-1}, L_\tau f$ (three occurrences).
+Theorem 12, end of proof: "for any $c < \tfrac1{2n}$" should be $|c|$.
+Corollary 13, proof: $|S^m_{\mathrm{cont},2}f|$ should be $|S^m_{\mathrm{cont},q}f|$ in the first line of the chain.
+Corollary 14: $c$ should be $|c|$.
+Section 6
+Rotation-equivariant continuous norm: $\psi_{j_1,R_1}$ should be $\psi_{\lambda_1,R_1}$; $d\mu_m(R_n)$ should be $d\mu_m(R_m)$, also in the dyadic display; $\frac{d\lambda_m}{\lambda_m^{m+1}}$ should be $\frac{d\lambda_m}{\lambda_m^{n+1}}$. (the last already fixed)
+Lemma 23, proof: $d\mu(R_1)\cdots d\mu(R_n)$ should end with $d\mu(R_m)$.
+§6.2, one-layer rotation-invariant norms: $\mu(R)$ should be $d\mu(R)$, and the integrand should be $|f*\psi_{\lambda,R}|q^q$ to match the definition of $\mathscr{S}{\mathrm{cont},q}f(\lambda)$ directly above.
+§6.2, $m \ge 2$ dyadic norm: the arguments should be $(j_1,\dots,j_m)$, and the stray $d\mu_1(R_1)$ should be deleted, since $R_1$ is already integrated out inside $\mathscr{S}^m_{\mathrm{dyad},q}$.
+Lemma 26, third bullet: $\ell^1$ and $\mathbf{L}^1$ should be $\ell^2$ and $\mathbf{L}^2$, the norms should be squared, and $C_\psi$, $\hat C_\psi$ are interchanged between the continuous and dyadic statements.
+Theorem 25: the hypothesis $|D\tau|_\infty < \tfrac1{2n}$ is missing from the statement. (already fixed)
+Theorem 28: $\mathscr{S}{\mathrm{cont},q}f$ should be $\mathscr{S}^m{\mathrm{cont},q}f$ in the third display; the constant $\hat C_{m,n,q}$ is listed twice, where $\hat C_{m,n}$ and $C_{m,n,q}$ are meant. (the latter already fixed)
+Source-level
+The `definition` environment is never declared; one is needed for A3.
+</small>
+---
+D. Numbering after the corrections
+<small>
+arXiv	corrected	note
+Theorem 6	Theorem 6	restricted to $m=1$
+—	Proposition 7	new: the norm is infinite for $m \ge 2$
+Corollary 7	Corollary 8	restricted to $m=1$
+—	Definition 9, Lemma 10, Theorem 11	new: damped norm and boundedness
+Theorem 8	Theorem 12	
+Lemma 9, Lemma 10, Corollary 11	Lemma 13, Lemma 14, Corollary 15	
+Theorem 12, Corollary 13	Theorem 16, Corollary 17	
+Corollary 14	Corollary 18	damped for $m \ge 2$; proof added
+Proposition 15	Proposition 19	
+Results 16–28	20–32	shifted by 4
+</small>
+---
+E. Unaffected
+The $q = 2$ energy identity, the $\mathbf{L}^q$ theory for $1 < q \le 2$, the dilation and diffeomorphism stability results for $1 < q \le 2$, and the rotation results for $q > 1$ are unchanged. The $q = 1$ results at one layer are unchanged.
+---
+F. Other changes to the text
+<small>
+Section 3.2 now contains the divergence proposition (A1), the damped norm, the weight lemma, and the boundedness theorem (A3), together with a remark recording that Lemmas 4 and 5 are not needed for the $m = 1$ bound.
+Section 4 now contains a proof of the $q = 1$ dilation stability corollary (A4), which was previously stated without one.
+Conclusion: the opening sentence now records the $q = 1$ situation, namely that for $m \ge 2$ the scale measure must be damped, since the input to each layer past the first is nonnegative with positive integral and the undamped norm is infinite. The closing paragraph of the arXiv version, on whether Lipschitz continuity holds for general diffeomorphisms when $q = 1$, has been removed.
+Acknowledgments: now record the use of Claude Opus 5 in correcting the $q = 1$ proofs for the undamped norm, which were originally stated as true on the basis of a false proof. The authors checked the output and take responsibility for all results.
+</small>.'
 venue: 'Applied and Computational Harmonic Analysis'
 date: 2024-02-06
 citation: 'Chua, Albert, Hirn, Matthew, Little, Anna. &quot;On Generalizations of the Nonwindowed Scattering Transform.&quot; <i>Applied and Computational Harmonic Analysis Volume 68, January 2024, 101597</i>.'
